@@ -46,7 +46,7 @@ const BoopButton = () => {
         />
       ) : (
         <Image
-          src="/assets/image/Pause.jpeg"
+          src="/assets/image/pause.png"
           height={100}
           width={100}
           onClick={stopMusic}
