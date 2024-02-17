@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+// @ts-ignore: Unreachable code error
+
 'use client';
 
 import Image from 'next/image';
@@ -10,7 +12,22 @@ export default function Meme() {
   return (
     <div className="meme-body">
       <BoopButton />
-      <marquee className="text-5xl pb-8">Shrijal Tamrakar's Website</marquee>
+      <div className="pt-10">
+        <div className="marquee">
+          <p className="text-[80px] font-bold text-purple-200">
+            Shrijal Tamrakar's Website
+          </p>
+        </div>
+      </div>
+
+      <div className="text-[50px] pl-10 italic font-bold text-blue-300 pt-2">
+        <span className="text-white underline">AGILE </span>
+        <span>SOFTWARE </span>
+        <span className="text-white">DEVELOPMENT </span> 
+        <span className="text-black">IS </span>
+        MY
+        <span className="text-white"> PASSION</span>
+      </div>
 
       <div className="flex justify-between p-10 ">
         <div className="w-1/3">
@@ -258,7 +275,7 @@ export default function Meme() {
 
         <div>
           <div className="text-[100px]">THANKS</div>
-          <div className="text-[80px]">GREAT JOB</div>
+          <div className="text-[80px]">GREAT JOB!!!</div>
         </div>
 
         <div className="border-stone-50 p-5 mb-10">
