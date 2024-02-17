@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.meme-body {
+  position: relative;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-weight: 300;
+  background: #fbb9f5 url("../public/assets/gif/bardFalling.gif") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: auto;
+}
