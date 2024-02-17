@@ -126,7 +126,13 @@ export default function Meme() {
       </div>
 
       <div>
-        <Image src="/assets/gif/kiminon.gif" width="300" height="300" alt={'w-fil'} className='w-full' />
+        <Image
+          src="/assets/gif/kiminon.gif"
+          width="300"
+          height="300"
+          alt={'w-fil'}
+          className="w-full"
+        />
       </div>
 
       <div className="flex mt-10 justify-between p-10 ">
@@ -161,7 +167,6 @@ export default function Meme() {
         </div>
       </div>
 
-
       <div className="flex mt-10 justify-between p-10 ">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
@@ -190,6 +195,46 @@ export default function Meme() {
               height="300"
               alt={''}
             />
+          </div>
+        </div>
+      </div>
+
+      {/* Last */}
+
+      <div className="flex justify-between p-10 ">
+        <div>
+          <div>
+            <div className="border-stone-50 p-5">
+              <Image
+                src="/assets/gif/spoodance.gif"
+                width="500"
+                height="300"
+                alt={''}
+              />
+            </div>
+          </div>
+
+          <div className="border border-stone-50 p-5 mt-20 bg-indigo-700">
+            <Image
+              src="/assets/gif/alldance.gif"
+              width="600"
+              height="200"
+              alt={''}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50">
+            <Image
+              src="/assets/gif/danced.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+
+          <div className="bg-fuchsia-500 border-2	border-stone-50 mt-10">
+            <Image src="/assets/gif/bs.gif" width="300" height="300" alt={''} />
           </div>
         </div>
       </div>
