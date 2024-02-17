@@ -93,36 +93,104 @@ export default function Meme() {
         />
       </div>
 
-
-      <div className="flex items-center mt-10 justify-between p-10 ">
+      <div className="flex mt-10 justify-between p-10 ">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
-            <div>Stanley the man ley</div>
             <Image
-              src="/assets/gif/stanley.gif"
+              src="/assets/gif/golf.gif"
               width="300"
               height="300"
               alt={''}
             />
           </div>
 
-          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5 mt-20">
+          <div className="border border-stone-50 p-5 mt-20 bg-indigo-700">
             <Image
-              src="/assets/gif/ram.gif"
+              src="/assets/gif/dog-laptop.gif"
               width="300"
               height="300"
               alt={''}
             />
           </div>
         </div>
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50">
+            <Image
+              src="/assets/gif/cat-laptop.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+        </div>
+      </div>
 
-        <div className="bg-fuchsia-500 border-2	border-stone-50 p-5 mt-20">
-          <Image
-            src="/assets/gif/glasses.gif"
-            width="300"
-            height="300"
-            alt={''}
-          />
+      <div>
+        <Image src="/assets/gif/kiminon.gif" width="300" height="300" alt={'w-fil'} className='w-full' />
+      </div>
+
+      <div className="flex mt-10 justify-between p-10 ">
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
+            <Image
+              src="/assets/gif/michel.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+
+          <div className="border border-stone-50 p-5 mt-20 bg-indigo-700">
+            <Image
+              src="/assets/gif/mindyourb.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50">
+            <Image
+              src="/assets/gif/pain.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+        </div>
+      </div>
+
+
+      <div className="flex mt-10 justify-between p-10 ">
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
+            <Image
+              src="/assets/gif/mrbean.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+
+          <div className="border border-stone-50 p-5 mt-20 bg-indigo-700">
+            <Image
+              src="/assets/gif/spooder.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
+        </div>
+        <div>
+          <div className="bg-fuchsia-500 border-2	border-stone-50">
+            <Image
+              src="/assets/gif/snoop.gif"
+              width="300"
+              height="300"
+              alt={''}
+            />
+          </div>
         </div>
       </div>
     </div>
