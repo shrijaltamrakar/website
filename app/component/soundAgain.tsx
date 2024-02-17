@@ -1,4 +1,6 @@
 /* eslint-disable react-hooks/exhaustive-deps */
+'use client';
+
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import useSound from 'use-sound';
