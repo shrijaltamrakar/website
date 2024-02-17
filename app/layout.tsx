@@ -1,12 +1,13 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
+import './globals.css';
+import Image from 'next/image';
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: "Shrijal Tamrakar - Homepage",
-  description: "Shrijal Tamrakar - Homepage",
+  title: 'Shrijal Tamrakar - Homepage',
+  description: 'Shrijal Tamrakar - Homepage',
 };
 
 export default function RootLayout({
