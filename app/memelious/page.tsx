@@ -204,7 +204,7 @@ export default function Meme() {
       <div className="flex justify-between p-10 ">
         <div>
           <div>
-            <div className="border-stone-50 p-5">
+            <div className="border-stone-50 p-5 mb-10">
               <Image
                 src="/assets/gif/spoodance.gif"
                 width="500"
@@ -214,7 +214,7 @@ export default function Meme() {
             </div>
           </div>
 
-          <div className="border border-stone-50 p-5 mt-20 bg-indigo-700">
+          <div>
             <Image
               src="/assets/gif/alldance.gif"
               width="600"
@@ -224,7 +224,7 @@ export default function Meme() {
           </div>
         </div>
         <div>
-          <div className="bg-fuchsia-500 border-2	border-stone-50">
+          <div>
             <Image
               src="/assets/gif/danced.gif"
               width="300"
@@ -236,6 +236,38 @@ export default function Meme() {
           <div className="bg-fuchsia-500 border-2	border-stone-50 mt-10">
             <Image src="/assets/gif/bs.gif" width="300" height="300" alt={''} />
           </div>
+        </div>
+      </div>
+
+      {/* Lastest Last */}
+      <div className="p-20 text-xl font-bold capitalize">
+        <h1>This website is built using NEXT.</h1>
+        <h1>My blood, sweat and tears has built this website.</h1>
+        <h1>This website was not built with love.</h1>
+      </div>
+      <div className="text-[100px]">WOW YOU MADE IT HERE</div>
+
+      <div className="text-[100px]">WOW YOU MADE IT HERE</div>
+      <div className="text-[100px]">WOW YOU MADE IT HERE</div>
+      <div className="text-[100px]">WOW YOU MADE IT HERE</div>
+
+      <div className="flex mt-20">
+        <div className="border-stone-50 p-5 mb-10">
+          <Image src="/assets/gif/th2.gif" width="400" height="300" alt={''} />
+        </div>
+
+        <div>
+          <div className="text-[100px]">THANKS</div>
+          <div className="text-[80px]">GREAT JOB</div>
+        </div>
+
+        <div className="border-stone-50 p-5 mb-10">
+          <Image
+            src="/assets/gif/thumb1.gif"
+            width="500"
+            height="300"
+            alt={''}
+          />
         </div>
       </div>
     </div>
