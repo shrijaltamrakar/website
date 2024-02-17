@@ -71,22 +71,22 @@ export default function Meme() {
         <span className="text-white"> PASSION</span>
       </div>
 
-      <div className="flex justify-between p-10 ">
-        <div className="w-1/3">
+      <div className="flex lg:flex-row flex-col justify-between p-10 ">
+        <div className="lg:w-1/3">
           <div className="bg-fuchsia-500 border-2	 border-stone-50 p-5 px-10 text-xl text-black">
             Hi, I am Shrijal Tamrakar. I am Software Engineer with 5 years of
             experience. Currently Working at Fetch.ly
           </div>
         </div>
 
-        <div className="border-2 border-stone-50 p-5 px-10 bg-red-300 text-xl text-black w-1/3">
+        <div className="border-2 border-stone-50 p-5 px-10 bg-red-300 text-xl text-black lg:w-1/3 lg:mt-0 mt-10">
           When I'm not working or developing, you'll find me in Swyambhu,
           Kathmandu. I love to travel, play Dota 2 and Valorant poorly, as well
           as Beer and Coffee
         </div>
       </div>
 
-      <div className="flex mt-10 justify-between p-10">
+      <div className="flex lg:flex-row flex-col justify-between items-center lg:items-start p-10">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
             <div>Stanley the man ley</div>
@@ -98,7 +98,7 @@ export default function Meme() {
             />
           </div>
 
-          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5 mt-20">
+          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5 lg:mt-20 mt-10">
             <Image
               src="/assets/gif/ram.gif"
               width="300"
@@ -109,7 +109,7 @@ export default function Meme() {
         </div>
 
         <div>
-          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
+          <div className="bg-fuchsia-500 border-2	border-stone-50 p-5 lg:mt-0 mt-10">
             <Image
               src="/assets/gif/glasses.gif"
               width="300"
@@ -185,7 +185,7 @@ export default function Meme() {
         />
       </div>
 
-      <div className="flex mt-10 justify-between p-10 ">
+      <div className="flex lg:flex-row flex-col items-center lg:items-start justify-between p-10 mt-10 ">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
             <Image
@@ -206,7 +206,7 @@ export default function Meme() {
           </div>
         </div>
         <div>
-          <div className="bg-fuchsia-500 border-2	border-stone-50">
+          <div className="bg-fuchsia-500 border-2	border-stone-50 lg:mt-0 mt-20">
             <Image
               src="/assets/gif/cat-laptop.gif"
               width="300"
@@ -227,7 +227,7 @@ export default function Meme() {
         />
       </div>
 
-      <div className="flex mt-10 justify-between p-10 ">
+      <div className="flex lg:flex-row flex-col items-center lg:items-start justify-between p-10 mt-10">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
             <Image
@@ -248,7 +248,7 @@ export default function Meme() {
           </div>
         </div>
         <div>
-          <div className="bg-fuchsia-500 border-2	border-stone-50">
+          <div className="bg-fuchsia-500 border-2	border-stone-50 lg:mt-0 mt-10">
             <Image
               src="/assets/gif/pain.gif"
               width="300"
@@ -260,6 +260,7 @@ export default function Meme() {
       </div>
 
       {/* bounce */}
+      <div>
       <div className="bouncer x0">
         <img
           className="bouncer-image y0"
@@ -288,9 +289,10 @@ export default function Meme() {
           alt="Github"
         />
       </div>
+      </div>
       {/* bounce */}
 
-      <div className="flex mt-10 justify-between p-10 ">
+      <div className="flex lg:flex-row flex-col items-center lg:items-start justify-between p-10">
         <div>
           <div className="bg-fuchsia-500 border-2	border-stone-50 p-5">
             <Image
@@ -311,7 +313,7 @@ export default function Meme() {
           </div>
         </div>
         <div>
-          <div className="bg-fuchsia-500 border-2	border-stone-50">
+          <div className="bg-fuchsia-500 border-2	border-stone-50 lg:mt-0 mt-10">
             <Image
               src="/assets/gif/snoop.gif"
               width="300"
@@ -324,7 +326,7 @@ export default function Meme() {
 
       {/* Last */}
 
-      <div className="flex justify-between p-10 ">
+      <div className="flex lg:flex-row flex-col items-center lg:items-start justify-between p-10 ">
         <div>
           <div>
             <div className="border-stone-50 p-5 mb-10">
@@ -395,8 +397,8 @@ export default function Meme() {
       </div>
 
       <div className='flex justify-center flex-col items-center bg-purple-400 py-20'>
-        <div className="text-[100px] font-bold">LIFE IS BEAUTIFUL</div>
-        <div className="text-[100px] font-bold">SO ARE YOU!</div>
+        <div className="lg:text-[100px] text-[30px] font-bold">LIFE IS BEAUTIFUL</div>
+        <div className="lg:text-[100px] text-[30px] font-bold">SO ARE YOU!</div>
       </div>
     </div>
   );
