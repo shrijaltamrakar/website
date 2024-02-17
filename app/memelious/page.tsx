@@ -82,7 +82,7 @@ export default function Meme() {
         <div className="border-2 border-stone-50 p-5 px-10 bg-red-300 text-xl text-black lg:w-1/3 lg:mt-0 mt-10">
           When I'm not working or developing, you'll find me in Swyambhu,
           Kathmandu. I love to travel, play Dota 2 and Valorant poorly, as well
-          as Beer and Coffee
+          as drinking Beer and Coffee
         </div>
       </div>
 
