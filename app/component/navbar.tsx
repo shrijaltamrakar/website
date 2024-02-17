@@ -9,7 +9,7 @@ const Navbar: React.FC = () => {
 
       <div className="space-x-4">
         <Link href="/" className="hover:text-gray-400">
-          About Us
+          Uses
         </Link>
         <Link href="/work" className="hover:text-gray-400">
           Work

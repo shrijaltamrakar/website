@@ -5,12 +5,16 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-between min-h-screen sm:pt-48 pt-36">
-      <div>
-        <div className="xl:text-[100px] lg:text-[60px] sm:text-[40px] text-[38px] text-center font-bold	pb-4">
+    <main className="flex flex-col items-center justify-between min-h-screen">
+      
+      <div className='flex flex-col'>
+        {/* <Navbar /> */}
+
+        <div className="lg:text-[60px] sm:text-[40px] text-[38px] text-center font-bold	pb-4 pt-40">
           Hi! <span>I'm Shrijal Tamrakar.</span>
         </div>
-        <div className="xl:text-[50px] lg:text-[40px] text-[25px] text-center ">
+
+        <div className="lg:text-[40px] text-[25px] text-center ">
           Software Engineer
         </div>
 
@@ -21,7 +25,7 @@ export default function Home() {
               width="80"
               height="50"
               alt="node"
-              className="sm:h-[50px] sm:w-[80px] h-[40px] w-[50px]"
+              className="h-[40px] w-[60px]"
             />
           </div>
           <div>
@@ -30,7 +34,7 @@ export default function Home() {
               width="60"
               height="50"
               alt="react"
-              className="sm:h-[55px] sm:w-[60px]  h-[40px] w-[40px]"
+              className=" h-[45px] w-[50px]"
             />
           </div>
 
@@ -40,7 +44,7 @@ export default function Home() {
               width="50"
               height="50"
               alt="react-native"
-              className="sm:h-[50px] sm:w-[50px] h-[35px] w-[32px]"
+              className="h-[38px] w-[35px]"
             />
           </div>
           <div>
@@ -49,7 +53,7 @@ export default function Home() {
               width="60"
               height="50"
               alt="rails"
-              className="sm:h-[60px] sm:w-[60px] h-[35px] w-[35px]"
+              className="h-[50px] w-[50px]"
             />
           </div>
         </div>
